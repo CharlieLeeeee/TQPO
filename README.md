@@ -1,6 +1,6 @@
 # Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning
 
-Code for the paper "Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning", AAAI 2025.
+Code for the paper "Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning", AAAI 2025.    [Arxiv link][https://arxiv.org/abs/2412.13184]
 
 ## Paper Abstract
 
@@ -54,4 +54,19 @@ cd rlpyt/rlpyt/projects/tqpo/experiments
 python launch_tqpo.py
 ```
 
+
+
 Code is being sorted out and will be released in one week.
+
+## Cite 
+
+if you find our works useful for your research, please cite:
+
+```tex
+@article{li2024tilted,
+  title={Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning},
+  author={Li, Chenglin and Ruan, Guangchun and Geng, Hua},
+  journal={arXiv preprint arXiv:2412.13184},
+  year={2024}
+}
+```
