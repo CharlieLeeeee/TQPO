@@ -1,6 +1,8 @@
 # Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning
 
-Code for the paper "Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning", AAAI 2025.    [Arxiv link][https://arxiv.org/abs/2412.13184]
+Code for the paper "Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning", AAAI 2025.    [Arxiv link](https://arxiv.org/abs/2412.13184)
+
+The proposed safe RL algorithm, TQPO, maintains safety constraints with high probability by quantile constraints.
 
 ## Paper Abstract
 
@@ -21,9 +23,9 @@ pip install pyprind psutil
 
 #### 2 mujoco
 
-go to safety gym website https://github.com/openai/safety-gym, follow the instructions to install the corresponding version of ``mujoco``
+go to [``safety gym``](https://github.com/openai/safety-gym), follow the instructions to install the corresponding version of ``mujoco``
 
-#### 3 rlpyt
+#### 3 [rlpyt](https://github.com/astooke/rlpyt)
 
 ```python
 git clone https://github.com/astooke/rlpyt.git
@@ -31,7 +33,7 @@ cd rlpyt
 pip install -e .
 ```
 
-#### 4 safety gym
+#### 4 [safety gym](https://github.com/openai/safety-gym)
 
 ```
 git clone https://github.com/openai/safety-gym.git
@@ -43,7 +45,7 @@ pip install numpy
 
 #### 5 install TQPO
 
-copy tqpo folder in this repository to ``rlpyt/rlpyt/projects``
+copy ``tqpo`` folder in this repository to ``rlpyt/rlpyt/projects``，copy ``base.py`` to ``rlpyt\rlpyt\samplers\parallel`` to overwrite the original file.
 
 ## Run training code
 
@@ -54,11 +56,9 @@ cd rlpyt/rlpyt/projects/tqpo/experiments
 python launch_tqpo.py
 ```
 
+evaluation curves and other training results will be saved to ``rlpyt/data``
 
-
-Code is being sorted out and will be released in one week.
-
-## Cite 
+## Cite
 
 if you find our works useful for your research, please cite:
 
