@@ -1,6 +1,6 @@
 # Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning
 
-Code for the paper "Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning", AAAI 2025.    [Arxiv link](https://arxiv.org/abs/2412.13184)
+Code for the paper "Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning", AAAI 2025.    [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/34006)
 
 The proposed safe RL algorithm, TQPO, maintains safety constraints with high probability by quantile constraints.
 
@@ -63,10 +63,13 @@ evaluation curves and other training results will be saved to ``rlpyt/data``
 if you find our works useful for your research, please cite:
 
 ```tex
-@article{li2024tilted,
+@inproceedings{li2025tilted,
   title={Tilted Quantile Gradient Updates for Quantile-Constrained Reinforcement Learning},
   author={Li, Chenglin and Ruan, Guangchun and Geng, Hua},
-  journal={arXiv preprint arXiv:2412.13184},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={17},
+  pages={18236--18243},
+  year={2025}
 }
 ```
